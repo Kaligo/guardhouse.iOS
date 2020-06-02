@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "tenantId": "Local JS Test",
+        "environment": "iOS development",
+        "loginUrl": "local.html",
+        "imageName": "ascenda",
+        "imageExt": "jpg"
+    },{
+        "id": 1,
+        "tenantId": "AscendaGo",
+        "environment": "staging",
+        "loginUrl": "https://guardhouse.kaligo-staging.xyz/login?client_id=b4270485-4d88-4064-afa6-dd42950ad0e4&connection=ascenda_google_oauth2&state=ad6e1c7d-f96e-43d0-94a1-0df55cebace6&scope=openid,address,email,phone,profile&redirect_uri=https://ascendago-rd.kaligo-staging.xyz&response_type=id_token",
+        "imageName": "ascenda",
+        "imageExt": "jpg"
+    },
+    {
+        "id": 2,
+        "tenantId": "AscendaGo",
+        "environment": "production",
+        "loginUrl": "https://guardhouse.kaligo.com/login?client_id=16f5e08e-6ea2-4350-aec9-5eb0cd17d472&connection=ascenda_google_oauth2&state=6fae8c51-8f03-4a52-b34a-f6148acbba47&scope=openid,address,email,phone,profile&redirect_uri=https://go.kaligo.com&response_type=id_token",
+        "imageName": "ascenda",
+        "imageExt": "jpg"
+    },
+    {
+        "id": 3,
+        "tenantId": "FirstAbuDhabiBank",
+        "environment": "staging",
+        "loginUrl": "https://fab-guardhouse.kaligo-staging.xyz/login?client_id=8b78d410-cac8-49e1-8c35-1456a85083c2&connection=password&state=22fbdb91-a897-4296-85da-9506e4f2990e&scope=openid,address,email,phone,profile,custom&redirect_uri=https://fab-rd.kaligo-staging.xyz&response_type=id_token",
+        "imageName": "fab",
+        "imageExt": "jpg"
+    },
+    {
+        "id": 4,
+        "tenantId": "FirstAbuDhabiBank",
+        "environment": "production",
+        "loginUrl": "https://fab-guardhouse.kaligo.com/login",
+        "imageName": "fab",
+        "imageExt": "jpg"
+    }
+]
+
