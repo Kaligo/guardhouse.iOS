@@ -48,7 +48,7 @@ struct WebView: UIViewRepresentable, WebViewHandlerDelegate { // protocol for th
         configuration.userContentController.add(self.makeCoordinator(), name: "iOSNative")
         configuration.preferences = preferences
         
-        let webView = WKWebView(frame: .zero, configuration: configuration)
+        let webView = WKWebView(frame: CGRect.zero, configuration: configuration)
         webView.navigationDelegate = context.coordinator
         webView.allowsBackForwardNavigationGestures = true
         webView.scrollView.isScrollEnabled = true

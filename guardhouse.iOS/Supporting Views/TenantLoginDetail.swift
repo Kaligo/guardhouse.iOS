@@ -64,10 +64,10 @@ struct TenantLoginDetail : View {
     var body: some View {
         ZStack {
             VStack(spacing: 0) {
-                Text(webTitle).font(.body).onReceive(self.viewModel.showWebTitle.receive(on: RunLoop.main)) { value in
+                Text(webTitle).font(.subheadline).onReceive(self.viewModel.showWebTitle.receive(on: RunLoop.main)) { value in
                     self.webTitle = "Web title: \(value)"
                 }
-                Text("Login: \(login.tenantId), \(login.environment), \(login.loginUrl)").font(.subheadline)
+                Text("env: \(login.tenantId), \(login.environment)").font(.subheadline)
 
                 WebView(url: login.loginUrl, viewModel: viewModel).overlay (
                     RoundedRectangle(cornerRadius: 4, style: .circular)
